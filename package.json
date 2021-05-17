@@ -1,0 +1,21 @@
+{
+  "name": "label-kia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "sass": "sass --watch ./scss/style.scss:./style/css.css  --style compressed"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saafkhallid/LABEL-KIA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saafkhallid/LABEL-KIA/issues"
+  },
+  "homepage": "https://github.com/saafkhallid/LABEL-KIA#readme"
+}

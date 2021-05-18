@@ -1,0 +1,99 @@
+$myColorx:#BB162B;
+$myColory:#262626;
+$myColorz:white;
+$myColorw:rgb(214, 205, 205);
+$myFont: Helvetica, sans-serif;
+
+
+$myFontSize: 18px;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+    body {
+        height: 100%;
+        //code css section header
+
+        .containerheader{
+            width: 100%;
+            // height: px;
+            .containerheader-nav1{
+                width:100%;
+                height: 50px;
+                background-color:$myColorw;
+                .containerheader-nav1--block1{
+                    
+                    padding-top: 15px;
+                     float: left;
+                     margin-left: 5%;
+                     .containerheader-nav1--block1--item{
+                        list-style-type: none;
+                        display: inline-block;
+                        padding: 5px 20px;
+                        font-weight: bold;
+                        cursor: pointer;
+                     }
+                }
+                .containerheader-nav1--block2{
+                   
+                    padding-top: 15px;
+                    float: right;
+                    margin-right: 5%;
+                    .containerheader-nav1--block2--item {
+                        list-style-type: none;
+                        display: inline-block;
+                        padding: 5px 20px;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+            .containerheader-nav2{
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                width:90%;
+                margin: 0 auto;
+               .containerheader-nav2--block1{
+                   display:flex;
+                   flex-direction: row;
+                   align-items: center;
+                   .containerheader-nav2--block1--item1{
+                       width: 150px;
+                       height: auto;
+                   }
+                   .containerheader-nav2--block1--item2{
+                    font-size: 18px
+                }
+               }
+               .containerheader-nav2--block2{
+                float: right;
+                .containerheader-nav2--block2--item1{
+                    list-style-type: none;
+                    display: inline-block;
+                    padding: 5px 20px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+               } 
+            }
+            .containerheader-nav3{
+                background-color: $myColorx;
+                .containerheader-nav3-item{
+                    margin-left:5%;
+                    list-style-type: none;
+                    display: inline-block;
+                    padding: 5px 20px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

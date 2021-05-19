@@ -4,6 +4,7 @@ $myColorz:white;
 $myColora:rgb(149, 146, 146);
 $myColorw:rgba(214, 205, 205, 0.301);
 $myFont:'KoHo', sans-serif;
+$myFonts:'Goblin One', cursive;
 
 
 $myFontSize: 30px;
@@ -126,6 +127,158 @@ $myFontSize: 30px;
                     transform: translate(-50%,-50%);
             }
 
+        }
+        .sectioncontainer{
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 5%;
+
+            .sectioncontainer--titer{
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: $myFontSize;
+                    width: 60%;
+                    margin: 0 auto;
+                    padding-top: 50px;
+                    font-weight: bold;
+            }
+            .sectioncontainer--ligne{
+                border: 1px solid $myColorx;
+                width: 10%;
+                margin: 0 auto;
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .sectionblock{
+                margin-top: 5%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-areas: 
+                                    "a b"
+                                    "c d"
+                                    "e f"
+                                    "g h"
+                                    "i j"
+                                    "k l";
+                    .appl{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        height: auto;
+                        margin: 0 auto;
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+
+                    }
+                    .para {
+                        width: 100%;
+                        height: auto;
+
+                            display: flex;
+                            flex-direction: column;
+                            // margin-left: 10%;
+                            // margin-top: 20%;
+                            justify-content: center;
+                            align-items: center;
+                            
+                            // align-items: center;
+                            // align-items: center;
+                            // justify-content: center;
+                            // margin: 0 auto;
+                        .para--sectionblock{
+                            // text-align: left;
+                            width: 80%;
+                            font-size: 30px;
+                            margin-top:5%;
+
+                            // margin-left: 10%;
+                            font-family: $myFont;
+                        
+
+                        }
+                        .titre--sectionblock {
+                            // font-weight: bold;
+                            text-transform: uppercase;
+                            font-size: 30px;
+                            font-family: $myFonts;
+
+                        }
+                    }
+
+
+                                    .item1{
+                                        @extend .appl;
+                                        grid-area: a;
+                                    }
+                                    .item2{
+                                        grid-area: b;
+                                        @extend .para;
+                                    }
+                                    .item3{
+                                        grid-area: c;
+                                        @extend .para;
+
+
+                                    }
+                                    .item4{
+                                        grid-area: d;
+                                        @extend .appl;
+
+
+                                    }
+                                    .item5{
+                                        grid-area: e;
+                                        @extend .appl;
+
+                                    }
+                                    .item6{
+                                        grid-area: f;
+                                        @extend .para;
+
+
+                                    }
+                                    .item7{
+                                        grid-area: g;
+                                        @extend .para;
+
+
+                                    }.item8{
+                                        grid-area: h;
+                                        @extend .appl;
+
+
+                                    }
+                                    .item9{
+                                        grid-area: i;
+                                        @extend .appl;
+
+
+                                    }
+                                    .item10{
+                                        grid-area: j;
+                                        @extend .para;
+
+
+                                    }
+                                    .item11{
+                                        grid-area: k;
+                                        @extend .para;
+
+                                    }
+                                    .item12{
+                                        grid-area: l;
+                                        @extend .appl;
+
+                                    }
+                                    
+            
+            }
         }
     }
 }

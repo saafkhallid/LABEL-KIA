@@ -5,7 +5,7 @@ $myColorw:rgb(214, 205, 205);
 $myFont: Helvetica, sans-serif;
 
 
-$myFontSize: 18px;
+$myFontSize: 17px;
 
 
 
@@ -94,6 +94,28 @@ $myFontSize: 18px;
                     cursor: pointer;
                 }
             }
+        }
+        .heroheader{
+            background-image:linear-gradient((rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.363))), url('../images/0.png');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            .heroheader--titre{
+                position: absolute;
+                top:40%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                color: $myColorz;
+            }
+            .heroheader--para{
+                    color: $myColorz;
+                    position: absolute;
+                    text-align: center;
+                    top:60%;
+                    left:50%;
+                    transform: translate(-50%,-50%);
+            }
+
         }
     }
 }

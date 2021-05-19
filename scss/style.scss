@@ -2,10 +2,10 @@ $myColorx:#BB162B;
 $myColory:#262626;
 $myColorz:white;
 $myColorw:rgb(214, 205, 205);
-$myFont: Helvetica, sans-serif;
+$myFont:'KoHo', sans-serif;
 
 
-$myFontSize: 17px;
+$myFontSize: 30px;
 
 
 
@@ -30,6 +30,7 @@ $myFontSize: 17px;
                      float: left;
                      margin-left: 5%;
                      .containerheader-nav1--block1--item{
+                         font-family: $myFont;
                         list-style-type: none;
                         display: inline-block;
                         padding: 5px 20px;
@@ -75,6 +76,7 @@ $myFontSize: 17px;
                .containerheader-nav2--block2{
                 float: right;
                 .containerheader-nav2--block2--item1{
+                    text-transform: uppercase;
                     list-style-type: none;
                     display: inline-block;
                     padding: 5px 20px;
@@ -86,6 +88,7 @@ $myFontSize: 17px;
             .containerheader-nav3{
                 background-color: $myColorx;
                 .containerheader-nav3-item{
+                    color: $myColorz;
                     margin-left:5%;
                     list-style-type: none;
                     display: inline-block;
@@ -101,6 +104,7 @@ $myFontSize: 17px;
             background-position: center;
             height: 90vh;
             .heroheader--titre{
+                text-transform: uppercase;
                 position: absolute;
                 top:40%;
                 left:50%;
@@ -108,6 +112,9 @@ $myFontSize: 17px;
                 color: $myColorz;
             }
             .heroheader--para{
+                    font-family: $myFont;
+                    font-weight: bold;
+                    font-size:$myFontSize;
                     color: $myColorz;
                     position: absolute;
                     text-align: center;

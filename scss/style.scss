@@ -14,6 +14,7 @@ $myFontSize: 30px;
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
     body {
         height: 100%;
@@ -102,6 +103,8 @@ $myFontSize: 30px;
                 }
             }
         }
+        //code css section heroheader
+
         .heroheader{
             background-image:linear-gradient((rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.363))), url('../images/0.png');
             background-size: cover;
@@ -128,12 +131,14 @@ $myFontSize: 30px;
             }
 
         }
+       //code css section1
         .sectioncontainer{
             width: 90%;
             margin: 0 auto;
             margin-top: 5%;
 
             .sectioncontainer--titer{
+                    font-family: $myFonts;
                     text-align: center;
                     text-transform: uppercase;
                     font-size: $myFontSize;
@@ -182,15 +187,11 @@ $myFontSize: 30px;
 
                             display: flex;
                             flex-direction: column;
-                            // margin-left: 10%;
-                            // margin-top: 20%;
+                            
                             justify-content: center;
                             align-items: center;
                             
-                            // align-items: center;
-                            // align-items: center;
-                            // justify-content: center;
-                            // margin: 0 auto;
+                            
                         .para--sectionblock{
                             // text-align: left;
                             width: 80%;
@@ -280,5 +281,63 @@ $myFontSize: 30px;
             
             }
         }
+       //code css section 2 
+        .sectionKia{
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 100px;
+            .sectionKia--titre{
+                text-align: center;
+                font-size: 40px;
+                font-weight: bold;
+                // margin-top: 50px;
+            }
+            .sectionkia--ligne{
+                // @extend .sectioncontainer--ligne;
+                border: 1px solid $myColorx;
+                text-transform: uppercase;
+                width: 5%;
+                margin: 0 auto;
+                margin-top: 20px;
+                text-align: center;
+                
+            }
+            .sectionKia--container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+
+                .sectionKia--container--block{
+                    width: 30%;
+                    padding: 10px;
+                    text-align: center;
+                    cursor: pointer;
+                    .sectionKia--container-photo{
+                        margin-bottom: 30px;
+                        margin-top: 10px;
+                        display: inline-block;
+                        color: red;
+                        font-size: 50px;
+                    }
+                    .sectionKia-titre{
+                        font-weight: bold;
+                        font-size: 15px;
+                        text-transform: uppercase;
+                        margin-bottom: 10px;
+                    }
+                    .sectionKia--para{
+                        font-size: 25px;
+                        margin-bottom: 15px;
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+                   
+                }
+
+            }
+
+        }
+        //code css section footer
     }
 }

@@ -32,6 +32,14 @@ $myFontSize: 30px;
                     padding-top: 15px;
                      float: left;
                      margin-left: 5%;
+                     .vertical-line{
+                        border-left: 1px solid rgb(180, 176, 176);
+                        display: inline-block;
+                        height: 20px;
+                        margin: 0 5px;
+                      }
+
+                    
                      .containerheader-nav1--block1--item{
                          color: $myColora;
                          font-family: $myFont;
@@ -47,6 +55,13 @@ $myFontSize: 30px;
                     padding-top: 15px;
                     float: right;
                     margin-right: 5%;
+                    .vertical-linee{
+                        text-align: center;
+                        border-left: 1px solid rgb(89, 90, 89);
+                        display: inline-block;
+                        height: 20px;
+                        margin: 0 5px;
+                      }
                     .containerheader-nav1--block2--item {
                         color: $myColora;
                         list-style-type: none;
@@ -54,6 +69,7 @@ $myFontSize: 30px;
                         padding: 5px 20px;
                         font-weight: bold;
                         cursor: pointer;
+                       
                     }
 
                 }
@@ -74,6 +90,12 @@ $myFontSize: 30px;
                        width: 150px;
                        height: auto;
                    }
+                   .vertical-line{
+                    border-left: 2px solid rgb(179, 168, 168);
+                    display: inline-block;
+                    height: 50px;
+                    margin: 0 20px;
+                  }
                    .containerheader-nav2--block1--item2{
                     font-size: 18px
                 }
@@ -175,16 +197,15 @@ $myFontSize: 30px;
                         width: 100%;
                         height: auto;
                         margin: 0 auto;
-                        img{
+                        .item-photo{
                             width: 100%;
                             height: auto;
                         }
 
                     }
                     .para {
-                        width: 100%;
-                        height: auto;
-
+                             width: 100%;
+                             height: auto;
                             display: flex;
                             flex-direction: column;
                             
@@ -193,12 +214,9 @@ $myFontSize: 30px;
                             
                             
                         .para--sectionblock{
-                            // text-align: left;
                             width: 80%;
                             font-size: 30px;
                             margin-top:5%;
-
-                            // margin-left: 10%;
                             font-family: $myFont;
                         
 
@@ -209,6 +227,13 @@ $myFontSize: 30px;
                             font-size: 30px;
                             font-family: $myFonts;
 
+                        }
+                        .commit--sectionblock{
+                            width: 80%;
+                            font-size: 30px;
+                            margin-top:5%;
+                            color: $myColorx;
+                            font-weight: bold;
                         }
                     }
 

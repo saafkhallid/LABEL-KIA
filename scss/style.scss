@@ -97,7 +97,14 @@ $myFontSize: 30px;
                     margin: 0 20px;
                   }
                    .containerheader-nav2--block1--item2{
-                    font-size: 18px
+                    font-size: 15px;
+                    .containerheader-nav2--block1--item2__mod1{
+                        font-family: $myFonts;
+                    }
+                    .containerheader-nav2--block1--item2__mod2{
+                        color: gray;
+                        font-size: small;
+                    }
                 }
                }
                .containerheader-nav2--block2{
@@ -315,6 +322,7 @@ $myFontSize: 30px;
                 text-align: center;
                 font-size: 40px;
                 font-weight: bold;
+                text-transform: uppercase;
                 // margin-top: 50px;
             }
             .sectionkia--ligne{
@@ -347,7 +355,7 @@ $myFontSize: 30px;
                     }
                     .sectionKia-titre{
                         font-weight: bold;
-                        font-size: 15px;
+                        font-size: 20px;
                         text-transform: uppercase;
                         margin-bottom: 10px;
                     }

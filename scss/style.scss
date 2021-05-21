@@ -371,5 +371,136 @@ $myFontSize: 30px;
 
         }
         //code css section footer
+        .footer {
+            background-color: #8080804b;
+            height:45vh;
+
+            .footer-container{
+                width: auto;
+            .section-footer1{
+                padding-top: 50px;
+                padding-bottom: 30px;
+                width: 90%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                .signe-footer1 {
+                    width:20% ;
+                    .titre-signe{
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                    .signe-ul{
+                        margin-top: 30px;
+                       list-style-type: none;
+                       display: inline-block;
+                       cursor: pointer;
+                       font-size: 18px;
+                       color: $myColora;
+                       .list-sgine{
+                           padding-top: 10px;
+                       }
+                    }
+                } .signe-footer2 {
+                    width: 20%;
+                    .titre-signe{
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                    .signe-ul{
+                        margin-top: 30px;
+                        padding-top:10px;
+                        list-style-type: none;
+                        display: inline-block;
+                        cursor: pointer;
+                        font-size: 18px;
+                        color: $myColora;
+                        .list-sgine{
+                            padding-top: 10px;
+                        }
+
+                     }
+                    
+                } .signe-footer3 {
+                    width: 20%;
+                    .titre-signe{
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                    .signe-ul{
+                        margin-top: 30px;
+                        padding-top:10px;
+                        list-style-type: none;
+                        display: inline-block;
+                        cursor: pointer;
+                        font-size: 18px;
+                        color: $myColora;
+                        .list-sgine{
+                            padding-top: 10px;
+                        }
+
+                     }
+
+                }
+                .signe-footer4 {
+                    color: $myColora;
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    .signe-footer4-item1{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+
+                    }
+                }
+            }
+            .section-footer2{
+                width: 90%;
+                margin: 0 auto;
+
+                .footer2-signe1{
+                    float: left;
+                    color: $myColora;
+                }
+                .footer2-signe2 {
+                   float: right;
+                    .footer2--item{
+                        .vertical-line{
+                            border-left: 1px solid rgb(179, 168, 168);
+                            display: inline-block;
+                            height: 10px;
+                            margin: 0 20px;
+                          }
+                   .footer2--item1{
+                   
+                    color: $myColora;
+                    padding: 5px 10px;
+                    text-transform: uppercase;
+                    list-style-type: none;
+                    display: inline-block;
+                    font-weight: bold;
+                    cursor: pointer;
+                 
+                   }
+                    }
+
+                }
+            }
+
+        }
     }
+        .logogia{
+            background-color: red;
+            width: 90%;
+            margin: 0 auto;
+            .logokia--image{
+                float: right;
+                width: 500px;
+            }
+        }
+}
 }

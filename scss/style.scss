@@ -19,7 +19,6 @@ $myFontSize: 30px;
     body {
         height: 100%;
         //code css section header
-
         .containerheader{
             width: 100%;
             // height: px;
@@ -108,7 +107,7 @@ $myFontSize: 30px;
                 }
                }
                .containerheader-nav2--block2{
-                float: right;
+                   margin-right: 15%;
                 .containerheader-nav2--block2--item1{
                     text-transform: uppercase;
                     list-style-type: none;

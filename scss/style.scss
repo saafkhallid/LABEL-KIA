@@ -37,6 +37,7 @@ $myFontSize: 30px;
                         height: 20px;
                         margin: 0 5px;
                       }
+                
 
                     
                      .containerheader-nav1--block1--item{
@@ -47,6 +48,11 @@ $myFontSize: 30px;
                         padding: 5px 20px;
                         font-weight: bold;
                         cursor: pointer;
+                        .mod-fab{
+                            padding-right: 10px;
+                        }
+                       
+                        
                      }
                 }
                 .containerheader-nav1--block2{
@@ -68,8 +74,14 @@ $myFontSize: 30px;
                         padding: 5px 20px;
                         font-weight: bold;
                         cursor: pointer;
+
+                        &:hover{
+                            color: $myColorx;
+                        }
                        
                     }
+                   
+                   
 
                 }
             }
@@ -115,6 +127,9 @@ $myFontSize: 30px;
                     padding: 5px 20px;
                     font-weight: bold;
                     cursor: pointer;
+                    &:hover{
+                        color: $myColorx;
+                    }
                 }
                } 
             }
@@ -378,10 +393,10 @@ $myFontSize: 30px;
 
         }
         //code css section footer
+   
         .footer {
             background-color: #8080804b;
-            height:45vh;
-
+            height:47vh;
             .footer-container{
                 width: auto;
             .section-footer1{
@@ -522,7 +537,30 @@ $myFontSize: 30px;
             }
 
         }
-    }
+    }   
+    
+    
+            
+            //     .lgofinal{
+            //     width: 90%;
+            //     margin: 0 auto;
+            //     height: 100px;
+            //     .logofinal-item{
+            //         width: 100%;
+                
+            //         width: 125px;
+            //         .logofinal-image{
+            //             position:absolute;
+            //             z-index:1;
+                    
+
+            //             width: 125px;
+            //             height: 100px;
+            //             top: 90%;
+            //             right: 10%;
+            //         }
+            //     }
+            // }
 
        
 }

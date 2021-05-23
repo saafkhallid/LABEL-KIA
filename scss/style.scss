@@ -4,6 +4,7 @@ $myColorz:white;
 $myColora:rgb(149, 146, 146);
 $myColorw:rgba(214, 205, 205, 0.301);
 $myFont:'KoHo', sans-serif;
+$myFonta:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 $myFonts:'Goblin One', cursive;
 
 
@@ -21,6 +22,7 @@ $myFontSize: 30px;
         //code css section header
 
         .containerheader{
+            
             width: 100%;
             // height: px;
             .containerheader-nav1{
@@ -87,6 +89,8 @@ $myFontSize: 30px;
                 }
             }
             .containerheader-nav2{
+
+               
                 display:flex;
                 flex-direction: row;
                 align-items: center;
@@ -120,7 +124,10 @@ $myFontSize: 30px;
                 }
                }
                .containerheader-nav2--block2{
+               
                    margin-right: 15%;
+                  
+                
                 .containerheader-nav2--block2--item1{
                     text-transform: uppercase;
                     list-style-type: none;
@@ -132,7 +139,23 @@ $myFontSize: 30px;
                         color: $myColorx;
                     }
                 }
+
+               
                } 
+
+               .containerheader-nav2--block3{
+                   #bar{
+                       size: 20px;
+                       margin-right: 5%;
+                       display: none;
+                   }
+               }
+            //   .menu-bar{
+            //      background-color: #BB162B;
+            //      .bar{
+            //          display: none;
+            //      }
+            //     }
             }
             .containerheader-nav3{
                 background-color: $myColorx;
@@ -156,6 +179,8 @@ $myFontSize: 30px;
             height: 90vh;
             .heroheader--titre{
                 text-transform: uppercase;
+                font-family:$myFonta;
+                font-size: 35px;
                 position: absolute;
                 top:40%;
                 left:50%;
@@ -240,16 +265,16 @@ $myFontSize: 30px;
                             width: 80%;
                             font-size: 30px;
                             margin-top:5%;
-                            font-family: $myFont;
+
                         
 
                         }
                         .titre--sectionblock {
-                            // font-weight: bold;
                             text-transform: uppercase;
                             width: 80%;
                             font-size: 30px;
-                            font-family: $myFonts;
+                            font-family: $myFonta;
+
 
                         }
                         .commit--sectionblock{
@@ -360,6 +385,8 @@ $myFontSize: 30px;
                 
             }
             .sectionKia--container{
+                padding-top: 50px;
+                padding-bottom: 50px;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
@@ -558,7 +585,7 @@ $myFontSize: 30px;
 }
 
 
-//Responsive Desktop
+//Responsive mini Desktop
 
 @media screen and (max-width: 1280px) {
     body {
@@ -587,6 +614,15 @@ $myFontSize: 30px;
           .containerheader-nav2{
             .containerheader-nav2--block2{
                 display: none;
+                
+            }
+            .containerheader-nav2--block3{
+                margin-right: 100px;
+                cursor:pointer;
+                #bar{
+                    size: 20px;
+                    display:block;
+                }
             }
 
           }
@@ -769,11 +805,84 @@ $myFontSize: 30px;
             }
           }
         }
-        .footer {
-            height:60vh;
-
-        }
+       
       }
+      .footer {
+        .footer-container{
+            width: 100%;
+            .section-footer1{
+                display:flex ;
+                flex-wrap: wrap;
+                width: 100%;
+                justify-content:none;
+
+                .signe-footer1{
+                    max-width:20%;
+                }
+                .signe-footer2{
+                    max-width: 20%;
+                }
+                .signe-footer3{
+                    max-width: 20%;
+
+                }
+                .signe-footer4{
+                    max-width: 40%;
+                    .vertical-line{
+                        height: 15px;
+                        margin: 0 5px;
+                      }
+                   
+                    .signe-footer4-item1{
+                        .signefooter4-titre{
+                            .signefooter4-__mod1{
+                                font-size: 13px;
+                                font-family: $myFonts;
+                            }
+                           
+                        }
+                        
+
+
+                    }
+                    // .signe-footer4-item2{
+                    //     padding-top: 10px;
+                    //     width: 90%;
+                    // }
+                    
+                
+            
+                    
+
+                }
+            
+            }
+            .section-footer2{
+                width: 100%;
+                .footer2-signe1{
+                    font-size: 10px;
+                }
+                .footer2-signe2{
+                    font-size: 10px;
+                    
+                    .footer2--item{
+                        .vertical-line{
+                            border-left: 1px solid rgb(179, 168, 168);
+                            display: inline-block;
+                            height: 2px;
+                            margin: 0 2px;
+                          }
+                        padding: 2px 5px;
+                        color: #BB162B;
+                       
+                     
+                       }
+
+                }
+
+            }
+        }
+    }
     }
   }
 
@@ -785,18 +894,4 @@ $myFontSize: 30px;
 //Responsive mobile
 
 
-  @media screen and (max-width:450) {
-    body {
-      width:100%;
-      .containerheader{
-          width: 100%;
-          .containerheader-nav2{
-              width: 100%;
-              .containerheader-nav1--block2{
-                  background-color: green;
-                //   display: none;
-              }
-          }
-      }
-    }
-  }
+  

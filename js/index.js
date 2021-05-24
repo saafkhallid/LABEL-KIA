@@ -11,12 +11,12 @@ ScrollReveal().reveal('.item1', {
     reset: true
 });
 ScrollReveal().reveal('.item2', {
-    delay: 300,
+    delay: 350,
     duration: 200,
     reset: true
 });
 ScrollReveal().reveal('.item3', {
-    delay: 300,
+    delay: 350,
     duration: 200,
     reset: true
 });
@@ -27,7 +27,7 @@ ScrollReveal().reveal('.item4', {
     reset: true
 });
 ScrollReveal().reveal('.item5', {
-    delay: 300,
+    delay: 350,
     duration: 200,
     reset: true
 });
@@ -43,13 +43,13 @@ ScrollReveal().reveal('.item7', {
     reset: true
 });
 ScrollReveal().reveal('.item8', {
-    delay: 300,
+    delay: 350,
     duration: 200,
     reset: true
 });
 ScrollReveal().reveal('.item9', {
-    delay: 375,
-    duration: 500,
+    delay: 350,
+    duration: 200,
     reset: true
 });
 ScrollReveal().reveal('.item10', {
@@ -63,7 +63,7 @@ ScrollReveal().reveal('.item11', {
     reset: true
 });
 ScrollReveal().reveal('.item12', {
-    delay: 300,
+    delay: 350,
     duration: 200,
     reset: true
 });
